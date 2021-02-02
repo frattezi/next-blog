@@ -1,2 +1,1 @@
-# next-blog
-Blog with next and strapi
+# NextJs Base project
