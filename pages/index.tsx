@@ -1,16 +1,10 @@
-import Head from 'next/head';
-import React from 'react';
+import styled from 'styled-components'
 
-const Home: React.FC = () => (
-    <div>
-        <Head>
-            <title>Blog Test</title>
-        </Head>
+const Title: React.FC = styled.h1`
+  color: red;
+  font-size: 50px;
+`
 
-        <main>
-            <h1>Hello World</h1>
-        </main>
-    </div>
-);
-
-export default Home;
+export default function Home() {
+  return <Title>My page</Title>
+}
